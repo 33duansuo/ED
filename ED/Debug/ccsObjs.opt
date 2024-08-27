@@ -1,0 +1,14 @@
+"./ED.o"
+"./ti_msp_dl_config.o"
+"./startup_mspm0g350x_ticlang.o"
+"./USER/BLUETEETH/Blueteeth.o"
+"./USER/DELAY/delay.o"
+"./USER/KEYBOARD/keyboard.o"
+"./USER/MOTOR/motor.o"
+"./USER/OPENMV/openmv.o"
+"./USER/PID/pid.o"
+"./USER/PRINT/print.o"
+"./USER/SONIC/sonic.o"
+-l"./device_linker.cmd"
+-ldevice.cmd.genlibs
+-llibc.a
